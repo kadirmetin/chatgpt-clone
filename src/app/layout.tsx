@@ -14,7 +14,7 @@ import { Inter } from "next/font/google";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "ChatGPT Clone",
+  title: "ChatGPT Clone [BETA]",
   description:
     "ChatGPT is a sibling model to InstructGPT, which is trained to follow an instruction in a prompt and provide a detailed response.",
 };
