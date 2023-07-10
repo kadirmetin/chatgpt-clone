@@ -1,2 +1,2 @@
-# chatgpt-clone
+# Chatbot
 #TODO: Add description :)
