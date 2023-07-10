@@ -15,30 +15,30 @@ export default function Home() {
           <h2>Examples</h2>
           <div className="space-y-2">
             <p className="infoText">
-              "Explain quantum computing in simple terms"
+              {'"Explain quantum computing in simple terms"'}
             </p>
             <p className="infoText">
-              "Got any creative ideas for a 10 year old’s birthday?"
+              {'"Got any creative ideas for a 10 year old’s birthday?"'}
             </p>
             <p className="infoText">
-              "How do I make an HTTP request in Javascript?"
+              {'"How do I make an HTTP request in Javascript?"'}
             </p>
           </div>
         </div>
 
         <div className="flex flex-col items-center justify-center mb-5">
           <BoltIcon className="h-8 w-8" />
-          <h2>Capabilites</h2>
+          <h2>Capabilities</h2>
 
           <div className="space-y-2">
             <p className="infoText">
-              Remembers what user said earlier in the conversation
+              {"Remembers what user said earlier in the conversation"}
             </p>
             <p className="infoText">
-              Allows user to provide follow-up corrections
+              {"Allows user to provide follow-up corrections"}
             </p>
             <p className="infoText">
-              Trained to decline inappropriate requests
+              {"Trained to decline inappropriate requests"}
             </p>
           </div>
         </div>
@@ -49,13 +49,15 @@ export default function Home() {
 
           <div className="space-y-2">
             <p className="infoText">
-              May occasionally generate incorrect information
+              {"May occasionally generate incorrect information"}
             </p>
             <p className="infoText">
-              May occasionally produce harmful instructions or biased content
+              {
+                "May occasionally produce harmful instructions or biased content"
+              }
             </p>
             <p className="infoText">
-              Limited knowledge of world and events after 2021
+              {"Limited knowledge of world and events after 2021"}
             </p>
           </div>
         </div>

@@ -24,10 +24,10 @@ function ChatRow({ id }: Props) {
   );
 
   useEffect(() => {
-    if (!pathname) return;
+    if (!pathname || !id) return;
 
     setActive(pathname.includes(id));
-  }, [pathname]);
+  }, [pathname, id]);
 
   const removeChat = async () => {
     await deleteDoc(doc(db, "users", session?.user?.email!, "chats", id));
@@ -38,7 +38,9 @@ function ChatRow({ id }: Props) {
   return (
     <Link
       href={`/chat/${id}`}
-      className={`chatRow justify-center mt-3 p-5 ${active && "bg-gray-700/50"}`}
+      className={`chatRow justify-center mt-3 p-5 ${
+        active && "bg-gray-700/50"
+      }`}
     >
       <ChatBubbleLeftIcon className="h-5 w-5" />
       <p className="flex-1 hidden md:inline-flex truncate">
