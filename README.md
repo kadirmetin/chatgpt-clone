@@ -33,7 +33,6 @@ This project aims to contribute to the proliferation of AI-powered conversationa
 <p float="left" align="center">
   <img src="https://github.com/kadirmetin/chatgpt-clone/assets/82063998/93bda331-ea0d-4794-a95f-e7f5c8b1b046" width="225" />
   <img src="https://github.com/kadirmetin/chatgpt-clone/assets/82063998/49cfb518-eb52-41df-928e-e0db08cfeadd" width="225" />
-  <img src="https://github.com/kadirmetin/twitter-clone/assets/82063998/bfff489a-13b0-4447-b6b1-d63cd1ee9db2" width="225" />
 </p>
 
 ## Running on Your Computer
